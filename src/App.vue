@@ -2,15 +2,24 @@
   <div id="app">
     <Navbar/>
     <router-view/>
+    <Newsletter/>
+    <Footer/>
+    <PostFooter/>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
+import Newsletter from './components/newsletter'
+import Footer from './components/Footer'
+import PostFooter from './components/PostFooter'
 export default {
   name: 'App',
   components:{
-    Navbar
+    Navbar,
+    Newsletter,
+    Footer,
+    PostFooter
   }
 }
 </script>

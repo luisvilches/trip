@@ -51,7 +51,7 @@ export default {
     footer{
         background: #222534;
         padding:80px;
-        height: 300px;
+        min-height: 300px;
     }
 
     .left{
